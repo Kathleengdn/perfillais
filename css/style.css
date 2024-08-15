@@ -19,13 +19,13 @@
 }
 /* tema light*/
 :root[data-theme='light']{
-    --primary-color:#0d0c09; /*cor principal dos textos */
+    --primary-color:#0b0b0F; /*cor principal dos textos */
     
     
-    --primary-bg-colo:#f0f2f5;
+    --primary-bg-color:#f0f2f5;
     --secondary-bg-color:#c7c8c9;
 
-    --prymary-boder-color:#c7c8c9;
+    --primary-boder-color:#c7c8c9;
     --secundary-boder-color:#9a9a9c;
 
     --title-color:#0b0b0F;
@@ -46,7 +46,7 @@
 }
 
 body{
-    background:var(--primary-bg-color) ;/*cor fo fundo*/
+    background:var(--primary-bg-color);/*cor do fundo*/
     color: var(--primary-bg-colo); /*cor geral dos textos*/
     font-family: 'Noto+Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -61,7 +61,7 @@ a:hover {
 }
 
 i{
-    color: var( --icon-color);
+    color: var(--icon-color);
 }
 
 .header {
@@ -76,7 +76,7 @@ i{
 
 .header-logo .logo  {
     width: 3.25rem;
-    height: 3.25rem ;
+    height: 3.25rem;
 }
 
 #toggleTheme {
@@ -146,15 +146,15 @@ i{
 
 /* CSS Responsivo*/
 @media (min-width: 768px) {
-    .header{
+    .header     {
         position: fixed;
         border-bottom: 1px solid var(--primary-boder-color);
         padding: 1rem 6rem;
     }
-    .nav-mobile{
+    .nav-mobile {
         display:none;
     }
-    .header-nav{
+    .header-nav {
         display: flex;
     }
 }
