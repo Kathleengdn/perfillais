@@ -371,7 +371,7 @@ html[data-theme='light'] .logo2{
     border-radius: 0rem 0rem 1rem 1rem;
 }
 
-.accordion-item.active .accordion-item.end {
+.accordion-item.active .accordion-header.end {
     border-radius: 0;
 }
 
@@ -383,6 +383,7 @@ html[data-theme='light'] .logo2{
    align-items: flex-start;
    gap: 1rem;
    border: 1px solid var(--primary-boder-color);
+   border-radius: 0;
 }
 
 .accordion-item.active .accordion-header {
@@ -424,7 +425,7 @@ html[data-theme='light'] .logo2{
 
 /* Roda Pé */
 
-footer  {
+footer {
     margin-bottom: 5rem;
 }
 
@@ -503,6 +504,14 @@ footer p {
         gap: 4rem;
     }
 
+    .sobre-descricao h2 {
+        text-align: left;
+    }
+
+    .descricao-button {
+        justify-content: flex-start;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -514,6 +523,10 @@ footer p {
     }
     #home {
         padding: 10rem 6rem 2rem;
+    }
+
+    .main-content .btn {
+        width: auto;
     }
 
     p, span, li {
@@ -535,4 +548,11 @@ footer p {
     h3 {
         font-size: 3.25;
     }
+    .header {
+        padding: 12rem 15rem 2rem;
+    }
+    .projetos, .sobre{
+        padding: 10rem 15rem 4rem;
+    }
+    
 }
